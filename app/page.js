@@ -1,15 +1,20 @@
 import Container from "./components/Container";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
+import ProductsGallary from "./components/ProductsGallary";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center bg-slate-50 h-screen">
-      <Container>
-        <Header />
+    <Container>
+      <Header />
+      <main>
         <Hero />
-      </Container>
-    </main>
+        {/* <ProductsGallary /> */}
+        <FAQ />
+      </main>
+      <Footer />
+    </Container>
   );
 }

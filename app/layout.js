@@ -9,7 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cardo.className}>{children}</body>
+      <body
+        className={`${cardo.className} flex flex-col items-center bg-slate-50 h-screen`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
