@@ -1,5 +1,7 @@
 import "./globals.css";
-import { cardo } from "./ui/fonts";
+// import { cardo } from "./ui/fonts";
+import { museoLocal } from "./ui/fonts";
+// import { fixel } from "./ui/fonts";
 
 export const metadata = {
   title: "Ukrainian Coffee Store",
@@ -10,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${cardo.className} flex flex-col items-center bg-slate-50 h-screen`}
+        className={`${museoLocal.className} flex flex-col items-center bg-white text-black h-screen`}
       >
         {children}
       </body>

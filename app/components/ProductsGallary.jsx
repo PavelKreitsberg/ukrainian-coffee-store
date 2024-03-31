@@ -10,13 +10,17 @@ const itemInfo = {
   praiceInKopeks: 75000,
   description: "Арабіка (100%)",
   imgPath: imgCard,
+  notes: ["plum", "molasses", "syrupy"],
 };
 
 const ProductsGallary = () => {
   return (
-    <div className="flex flex-col items-center w-full">
-      <ProductCard item={itemInfo} />
-    </div>
+    <>
+      <h2 className="text-center text-3xl">Оберіть каву</h2>
+      <div className="flex flex-col items-center w-full p-4">
+        <ProductCard item={itemInfo} />
+      </div>
+    </>
   );
 };
 

@@ -1,5 +1,4 @@
 import Burger from "./Burger";
-import BurgerMenu from "./BurgerMenu";
 import Logo from "./Logo";
 
 const Header = () => {

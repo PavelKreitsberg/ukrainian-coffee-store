@@ -14,13 +14,10 @@ const Hero = () => {
         fill
         className="absolute top-0 right-0 -z-10 w-full"
       /> */}
-        <h1 className="text-center text-[white] text-4xl">
-          Welcome to BeanBrew
-        </h1>
-        <p className="text-center text-[white] p-[16px]">
-          Savor the pleasure of freshly roasted coffee delivered straight to
-          your doorstep. Explore our world of aromatic blends and single-origin
-          specials.
+        <h1 className="text-center text-[white] text-4xl">Вітаємо</h1>
+        <p className="text-center text-[white] p-4">
+          Запрошуємо у світ ароматного задоволення! Тут кожна кавова краплина -
+          це витвір мистецтва. Ласкаво просимо до нашого кавового раю! ☕️
         </p>
         <div className="flex">
           <Button text="Order Now" />

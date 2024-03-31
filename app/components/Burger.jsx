@@ -15,7 +15,7 @@ const Burger = () => {
       >
         <span
           className={clsx(
-            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-[black]",
+            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-black",
             {
               "rotate-0 top-[16px]": open === false,
               "rotate-[405deg]": open === true,
@@ -24,7 +24,7 @@ const Burger = () => {
         />
         <span
           className={clsx(
-            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-[black]",
+            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-black",
             {
               "opacity-100": open === false,
               "opacity-0": open === true,
@@ -33,7 +33,7 @@ const Burger = () => {
         />
         <span
           className={clsx(
-            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-[black]",
+            "absolute w-full h-[3px] top-2/4 left-[0] block [transition:0.5s] bg-black",
             {
               "rotate-0 top-[3px]": open === false,
               "-rotate-[405deg]": open === true,
